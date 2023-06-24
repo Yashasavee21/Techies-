@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking Page</title>
+  <link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="booking">
+    <div class="booking-container">
+      <h2>Booking Details</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="service">Service:</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option value="Service 1">Service 1</option>
+            <option value="Service 2">Service 2</option>
+            <option value="Service 3">Service 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <div class="form-group">
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <button class="book-btn" onclick="submitBooking()">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Service Site. All rights reserved.</p>
+  </footer>
+
+  <script src="booking.js"></script>
+</body>
+</html>
