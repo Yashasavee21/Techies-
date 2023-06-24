@@ -36,7 +36,6 @@ function submitBooking() {
         }
       })
       .catch(error => {
-        // Handle any errors
         console.error('Error:', error);
         alert('An error occurred. Please try again.'); 
       });
