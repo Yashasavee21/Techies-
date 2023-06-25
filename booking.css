@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.logo {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navbar .btnLogin-popup {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar .btnLogin-popup::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    opacity: .85;
+}
+  #booking {
+    min-height: 120vh;
+    background: url('bggg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wrapper {
+    padding: 40px 20px;
+    position: absolute;
+    top:150px;
+    right:650px;
+    width:600px;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+
+
+  }
+  
+  .booking-container {
+    max-height: 100px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background:transparent;
+    padding: 40px;
+    border-radius: 40px;
+  }
+  
+  .booking-container h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  #name{
+    font-size: 16px;
+    color: #ffffff;
+    background: transparent;
+    backdrop-filter: blur(3px);
+  }
+  #email{
+    font-size: 16px;
+    color: #ffffff;
+    background: transparent;
+    backdrop-filter: blur(3px);
+  }    
+  #time{
+    font-size: 16px;
+    color: #000000;
+    background: transparent;
+    backdrop-filter: blur(3px);
+  }    
+  #date{
+    font-size: 16px;
+    color: #000000;
+    background: transparent;
+    backdrop-filter: blur(3px);
+  }
+ 
+  #service{
+    font-size: 16px;
+    color: #000000;
+    background: transparent;
+    backdrop-filter: blur(3px);
+  }
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #0a0a0a;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+  }
+  
+  .book-btn {
+    font-size: 26px;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 60px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border: 5px solid #0e2aa5;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #1537a5;
+  }
+  
+  footer {
+    background-color: #22276e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

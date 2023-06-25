@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Review Page</title>
+  <link rel="stylesheet" type="text/css" href="review.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">TECHIES</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="cart.html">View Cart</a>
+        <a href="profile.html">User Profile</a>
+        <a href="review.html">Review</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+  <section id="review">
+    <div class="wrapper">
+    <div class="container">
+      <h2>Write a Review</h2>
+      <form id="review-form">
+        <label for="service-select">Select a Service:</label>
+        <select id="service-select" required>
+          <option value="" disabled selected>Select a service</option>
+          <option value="service1">Women's Care</option>
+          <option value="service2">Men's Care</option>
+          <option value="service3">Home Painting</option>
+          <option value="service4">Ac/Applience Repair</option>
+          <option value="service5">Cleaning/Pest Control</option>
+          <option value="service6">Home Repair/ Refurnish</option>
+        </select>
+        <label for="rating-select">Rating:</label>
+        <select id="rating-select" required>
+          <option value="" disabled selected>Select a rating</option>
+          <option value="1">1 star</option>
+          <option value="2">2 stars</option>
+          <option value="3">3 stars</option>
+          <option value="4">4 stars</option>
+          <option value="5">5 stars</option>
+        </select>
+        <label for="review-text">Review:</label>
+        <textarea id="review-text" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Techies</p>
+    </div>
+  </footer>
+
+  <script src="review.js"></script>
+  <script src="review.js"></script>
+</body>
+</html>

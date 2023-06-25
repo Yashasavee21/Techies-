@@ -1,0 +1,42 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Service Details</title>
+  <link rel="stylesheet" type="text/css" href="services.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">TECHIES</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="cart.html">View Cart</a>
+        <a href="profile.html">User Profile</a>
+        <a href="review.html">Review</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+  <section id="service-details">
+    <div class="wrapper">
+    <h2>Finalize Your Choice</h2>
+    <div class="service-details-container">
+      <h3 id="service-title"></h3>
+      <p>Are you sure you want to book this service.</p>
+      <div class="service-actions">
+        <button class="book-btn" onclick="redirectToBooking()">Book</button>
+        <button class="close-btn" onclick="closetoback()">close</button>
+      
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Service Site. All rights reserved.</p>
+  </footer>
+
+  <script src="services.js"></script>
+</body>
+</html>

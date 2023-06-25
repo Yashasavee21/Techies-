@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  .header {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.logo {
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navbar .btnLogin-popup {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar .btnLogin-popup::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    opacity: .85;
+}
+
+  #review {
+    min-height: 120vh;
+    background: url('review.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .wrapper {
+    padding: 40px 20px;
+    position: absolute;
+    top:150px;
+    right:650px;
+    width:600px;
+    height:400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+
+
+  }
+  
+  #review .container {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #review h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  #review-form label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  #review-form select, #review-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #review-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 45px;
+    cursor: pointer;
+  }
+  
+  #review-form button:hover {
+    background-color: #202897;
+  }
+  
+
+  footer {
+    background-color: #232f3e;
+    color: #2433bd;
+    bottom: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  

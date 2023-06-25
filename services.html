@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Service Site</title>
+  <link rel="stylesheet" type="text/css" href="services.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">TECHIES</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="cart.html">View Cart</a>
+        <a href="profile.html">User Profile</a>
+        <a href="review.html">Review</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-card" onclick="redirectToServiceDetails('Service 1')">
+      <img src="service1.jpg" alt="Service 1">
+      <div class="service-card-content">
+        <h3>Women's Care</h3>
+        <p>Face, Feet, Skin, Hair & Nails.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 1')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 1')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card" onclick="redirectToServiceDetails('Service 2')">
+      <img src="service2.png" alt="Service 2">
+      <div class="service-card-content">
+        <h3>Men's Care</h3>
+        <p>Face, Feet, Skin, Hair & Nails.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 2')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 2')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="service-card" onclick="redirectToServiceDetails('Service 3')">
+      <img src="service3.png" alt="Service 3">
+      <div class="service-card-content">
+        <h3>Home Painting</h3>
+        <p>Damaged Surfaces, Prime Stains & Paint Exterior.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 3')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 3')">Add to Cart</button>
+        </div>
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Service 4')">
+      <img src="service4.png" alt="Service 4">
+      <div class="service-card-content">
+        <h3>Ac/Applience Repair</h3>
+        <p>compressor, fan motor & evaporator unit.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 4')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 4')">Add to Cart</button>
+        </div>
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Service 5')">
+      <img src="service5.png" alt="Service 5">
+      <div class="service-card-content">
+        <h3>Cleaning/Pest Control</h3>
+        <p>removing  nests & windows or doorways.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 5')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 5')">Add to Cart</button>
+        </div>
+      </div>
+    </div><div class="service-card" onclick="redirectToServiceDetails('Service 6')">
+      <img src="service6.png" alt="Service 6">
+      <div class="service-card-content">
+        <h3>Home Repair/ Refurnish</h3>
+        <p>returning a damaged object to good condition.</p>
+        <div class="service-actions">
+          <button class="book-btn" onclick="redirectToBooking('Service 6')">Book</button>
+          <button class="add-to-cart-btn" onclick="addToCart('Service 6')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Techies.</p>
+  </footer>
+
+  <script src="services.js"></script>
+</body>
+</html>
